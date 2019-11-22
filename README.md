@@ -1,6 +1,6 @@
 ### 环境
 
-python3 及本代码引用的子模块
+python3 及本代码引用的子模块:
 
 ``` shell
 pip3 install numpy opencv-python pyzbar scikit-image qrcode pillow
@@ -53,6 +53,8 @@ input: 包含所有输入参数的文件，文件中包含的信息主要如下�
     color_format: 视频颜色参数，原视频和测试视频相同，只支持 "I420"
     
     duration: 原视频在固定帧率下的播放时长
+
+    titles: 每个结果的标题
 
 ### 如何获得一个可用的YUV视频源
 

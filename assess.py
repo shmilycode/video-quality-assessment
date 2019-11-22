@@ -36,6 +36,7 @@ if __name__ == "__main__":
   dimension = parameters['dimension']
   colorformat = parameters['color_format']
   duration = int(parameters['duration'])
+  titles = parameters['titles']
 
   results = []
   for index, raw_video in enumerate(raw_videos):
@@ -46,7 +47,7 @@ if __name__ == "__main__":
     framerate1 = ExpandList(framerate1)
     results.append((found_ids1, psnr_data1, framerate1))
 
-  labels = raw_videos
+  labels =titles 
   p=None
   for index, result in enumerate(results):
     found_ids1, psnr_data1, framerate1 = result

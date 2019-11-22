@@ -1,11 +1,15 @@
 {
   "raw_videos":[
-    "video/2.4G/ppt.yuv",
-    "video/2.4G/ppt.yuv"
+    "video/2.4/ppt.yuv",
+    "video/2.4/ppt.yuv"
   ],
   "test_videos":[
-    "video/2.4G/recovery_ppt.yuv",
-    "video/2.4G/recovery_10_ppt.yuv"
+    "video/2.4//sport_20%_50ms.yuv",
+    "video/2.4/sport_20%_50ms_refactoring.yuv"
+  ],
+  "titles":[
+    "before",
+    "after"
   ],
   "framerate": 15,
   "dimension": "1280x720",
